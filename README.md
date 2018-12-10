@@ -15,3 +15,6 @@ An extension for Chrome (and soon Firefox, and hopefully many more browsers) wit
 - [ ] Add support for Internet Explorer
 - [ ] Add support for Safari
 - [ ] Add support for mobile devices
+
+| Not endorsed, sponsored, affiliated, or involved with DuckDuckGo, Duck Duck Go Inc., or anyone who works there. This is a personal project. Made with love from a DuckDuckGo fan. |
+| --- |
