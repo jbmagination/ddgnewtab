@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "DuckDuckGo New Tab",
+    "version": "0.1",
+    "browser_action" : {
+    "default_icon": "icon.png"
+    },
+    	"background": {
+		"scripts": ["event.js"],
+		"persistent": false
+	},
+    "chrome_settings_overrides": {
+      "search_provider": {
+        "encoding": "UTF-8",
+        "favicon_url": "https://duckduckgo.com/favicon.ico",
+        "is_default": true,
+        "keyword": "duckduckgo.com",
+        "name": "DuckDuckGo",
+        "search_url": "https://duckduckgo.com/?q={searchTerms}",
+        "suggest_url": "https://duckduckgo.com/ac/?q={searchTerms}&type=list"
+      }
+    },
+    "chrome_url_overrides" : {
+    "newtab": "index.html"
+    }
+}
